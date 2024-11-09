@@ -9,7 +9,7 @@ Parameters:
   RepositoryName:
     Type: String
     Description: Repository Name with username in front
-    Default: "lroquec/codebuild-test"
+    Default: "lroquec/aws-codepipeline"
   BranchName:
     Type: String
     Default: main
