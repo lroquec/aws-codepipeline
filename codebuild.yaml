@@ -45,7 +45,7 @@ Resources:
         GitCloneDepth: 1
         GitSubmodulesConfig:
           FetchSubmodules: false
-        BuildSpec: buildspec.yaml
+        BuildSpec: buildspec.yml
       SourceVersion: !Ref GitHubBranch
 
   CodeBuildServiceRole:
