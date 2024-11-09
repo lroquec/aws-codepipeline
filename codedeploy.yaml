@@ -1,16 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Codedeploy
 
-Parameters:
-  RepositoryName:
-    Type: String
-    Description: Name of github repository with username in front
-    Default: "lroquec/aws-codepipeline"
-
-  GitHubCommitId:
-    Type: String
-    Description: 'Commit ID to deploy'
-
 Resources:
 
   CodeDeployRole:
